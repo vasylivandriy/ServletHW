@@ -11,13 +11,15 @@
     <link rel="stylesheet" href="Style/Style.css">
 </head>
 
-<jsp:include page="Header.jsp">HEADER</jsp:include>
 <body>
-<h1 style="color: green">Fill out the form</h1>
+
+
+<h1 style="color: green">Fill out the form for registration</h1>
 
 <div id="mainDiv">
 
-    <form action="" method="post">
+    <form action="register" method="post" id="registrationForm">
+
         <label for="firstName">First name
             <input type="text" id="firstName" name="firstName" required placeholder="Олекса">
         </label>
@@ -49,7 +51,7 @@
         <br>
 
         <label for="submit">
-            <input type="submit" id="submit" name="submit" required>
+            <input type="submit" id="submit" name="submit" form="registrationForm">
         </label>
 
     </form>

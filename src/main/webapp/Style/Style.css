@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#mainDiv{
+    width: 30%;
+    height: 30%;
+    border: 3px solid brown;
+    border-radius: 10px;
+    margin-bottom: 150px;
+    padding: 5px;
+
+}

@@ -9,7 +9,14 @@
 <body>
 <h1>Main page</h1> <br>
 
-<h1>For registration <a href="Register.jsp">Click here</a></h1>
+<form action="Register.jsp"> <h3>If you wanna register, please click on registration button
+    <button type="submit" id="reg">registration</button></h3>
+</form>
+
+<form action="Login.jsp"> <h3>If you wanna login, please click on login button
+    <button type="submit" id="log">login</button></h3>
+</form>
+
 
 </body>
 </html>
